@@ -26,7 +26,7 @@ include_once ('header.php');
                </div>
                 </form>
                 <div class="link">Not yet signed up? 
-                    <a href="#">Signup now</a> 
+                    <a href="index.php">Signup now</a> 
                 </div>
            </section>
        </div> 

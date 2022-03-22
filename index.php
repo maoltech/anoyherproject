@@ -1,4 +1,8 @@
 <?php
+session_start();
+if (isset($_SESSION['unique_id'])){
+    header("location: user.php");
+}
 include_once ('header.php');
 ?>
     <body>
@@ -38,7 +42,7 @@ include_once ('header.php');
                </div>
                 </form>
                 <div class="link">Already signed up? 
-                    <a href="#">Login now</a> 
+                    <a href="login.php">Login now</a> 
                 </div>
            </section>
        </div> 
